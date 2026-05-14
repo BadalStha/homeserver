@@ -1,5 +1,3 @@
-# homeserver
-
 # HomeServer Lab: From Legacy Hardware to Modern Docker Environment
 
 A detailed documentation of my journey setting up a lightweight, high-performance home server using a legacy Intel H61 motherboard, 8GB RAM, and a 112GB SSD.
