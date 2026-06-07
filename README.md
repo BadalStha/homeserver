@@ -24,10 +24,6 @@ Transform older hardware into a self-hosted stack:
 | Storage | 112GB SATA SSD |
 | OS | Debian 13 "Trixie" — Minimal/Netinst (No GUI) |
 
-### ⚠️ PSU Constraint — Critical Hardware Note
-
-> **PSU sticker reads: `INPUT: 200W MAX — TOTAL OUTPUT POWER CANNOT EXCEED 80W`**
-
 This severely limited hardware expansion. A planned **NVIDIA GTX 1050 / GTX 1650** upgrade for Jellyfin NVENC hardware transcoding was **abandoned** — those GPUs draw up to 75W under load, which would have pushed the system dangerously over the 80W total output limit and risked hardware failure.
 
 **Decision:** Run CPU-based transcoding only. Jellyfin handles this adequately for 1–2 streams at 1080p on the Pentium.
